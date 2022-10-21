@@ -1,0 +1,151 @@
+html{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+}
+body{
+    width: 1440px;
+
+    background-color: #cdc8e3;
+}
+header{
+    height: 295px;
+    background: linear-gradient(92.33deg, #196B78 0.12%, #138496 100%);
+    box-shadow: 0px 8px 35px rgba(0, 0, 0, 0.16);
+}
+header h2{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 72px;
+    line-height: 87px;
+    color: #CCF8FF;
+    width: 435px;
+    height: 87px;
+    margin-left: 502px;
+    top: 64px;
+    margin-top: 0%;
+    padding-top: 64px;
+    margin-bottom: 20px;
+
+}
+header p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 36px;
+    color: rgba(204, 248, 255, 0.75);
+    width: 233px;
+    padding-left: 40%;
+    margin-top: 0;
+}
+input {
+    width: 820px;
+    height: 64px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 30%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    margin-top: 263px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 21px;
+    color: #ABB5BE;
+
+}
+input:focus{
+    outline-color:  coral;
+}
+.emojiSelector{
+
+    display: flex;
+    flex-wrap: wrap;
+    width: 1440px;
+}
+.search{
+    display: flex;
+    justify-content: space-evenly;
+
+    width:1440px;
+    
+
+}
+.searchBlob{
+    margin-left: 113px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    left: 0%;
+    right: 0%;
+    margin-top: 5%;
+    bottom: 1.08%;
+    background: #FFFFFF;
+    border: 1px solid #DEE2E6;
+    border-radius: 4px;
+    align-items: center;
+    height: 170px;
+
+}
+.searchBlock{
+    display: flex;
+    flex-wrap: wrap;
+}
+.searchBlock h2{
+    height: 48px;
+    width: 48px;
+    left: 134px;
+    top: 24px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    color: #68717A;
+    margin: 0;
+    margin-top: 10px;
+
+    height: 48px;
+    padding-right: 15px;
+    margin-bottom: 18px;
+}
+.searchBlock p{
+    width: 268px;
+    height: 30px;
+    left: 24px;
+    top: 130px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    color: #3F444A;
+    margin-top: 12px;
+
+}
+.searchBlock h3{
+    margin: 0;
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    left: 142px;
+    top: 90px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 17px;
+    line-height: 28px;
+    text-decoration-line: underline;
+    color: #000000;
+}
+.searchBlock.hide{
+    display: none;
+}
