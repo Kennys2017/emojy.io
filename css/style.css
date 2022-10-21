@@ -44,11 +44,10 @@ input {
     width: 820px;
     height: 64px;
     box-sizing: border-box;
-    position: absolute;
+    position: relative;
     left: 30%;
     right: 0%;
-    top: 0%;
-    bottom: 0%;
+    bottom: 300px;
     background: #FFFFFF;
     border: 1px solid #CED4DA;
     border-radius: 4px;
@@ -59,7 +58,6 @@ input {
     font-size: 24px;
     line-height: 21px;
     color: #ABB5BE;
-
 }
 input:focus{
     outline-color:  coral;
@@ -73,9 +71,9 @@ input:focus{
 .search{
     display: flex;
     justify-content: space-evenly;
-
     width:1440px;
-    
+      position: relative;
+    bottom: 300px;
 
 }
 .searchBlob{
