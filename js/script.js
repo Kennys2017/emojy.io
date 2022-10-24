@@ -6,7 +6,8 @@ let getJsonFile = (pathToFile) => {
     return my_JSON_object;
 };
 let stroke = '';
-let emoji = document.getElementsByClassName("searchBlock")[0];  /*Document представляет собой любую веб-страницу, загруженную в браузер, и служит точкой входа в содержимое веб-страницы, которое представляет собой дерево DOM *\
+let emoji = document.getElementsByClassName("searchBlock")[0];
+/*Document представляет собой любую веб-страницу, загруженную в браузер, и служит точкой входа в содержимое веб-страницы, которое представляет собой дерево DOM *\
 const allEmoji = getJsonFile("https://emoji-api-app.herokuapp.com/");
 str(allEmoji); /*преобразование в строку */
     function str(array){
@@ -22,8 +23,11 @@ str(allEmoji); /*преобразование в строку */
     emoji.innerHTML = stroke; /*Свойство интерфейса Element innerHTML устанавливает или получает HTML или XML разметку дочерних элементов. */
 }
    
-    document.querySelector("#place").oninput = function(){  */метод querySelector() возвращает первый элемент (Element) документа, который соответствует указанному селектору или группе селекторов. Если совпадений не найдено, возвращает значение null. */
-    let value = this.value.trim(); /*Свойство контекста выполнения кода, которое в нестрогом режиме всегда является ссылкой на объект, а в строгом режиме может иметь любое значение.*/
+    document.querySelector("#place").oninput = function(){ 
+*/метод querySelector() возвращает первый элемент (Element) документа, который соответствует указанному селектору или группе селекторов. Если совпадений не найдено, возвращает значение null. */
+    let value = this.value.trim();
+ /*Свойство контекста выполнения кода, которое в нестрогом режиме всегда является ссылкой на объект, а в строгом режиме может иметь любое значение.*/
     let item = allEmoji.filter(element => element.title.includes(value) || element.keywords.includes(value));
         str(item);
+/*element- Текущий обрабатываемый элемент в массиве. index -Необязательный Индекс текущего обрабатываемого элемента в массиве.*/
 }
