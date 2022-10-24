@@ -14,7 +14,8 @@ str(allEmoji); /*преобразование в строку */
         stroke = '';
     for(let i = 0; i<array.length;i++){
         stroke += 
-      `<div  class ="searchBlob"> /*создание блока с эмоджи*/ 
+      `<div  class ="searchBlob">
+      /*создание блока с эмоджи*/ 
       <h2 class="symbol">${array[i].symbol}</h2>
       <h3>${array[i].title}</h3>
       <p>${array[i].keywords}</p>
